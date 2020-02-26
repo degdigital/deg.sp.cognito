@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="106b751f-01c6-46c1-b0bb-d6b34d753bd1" solutionId="106b751f-01c6-46c1-b0bb-d6b34d753bd1" resetWebServer="true" sharePointProductVersion="19.0" name="DEG.SP.Cognito" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="System.IdentityModel.Tokens.Jwt.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\System.IdentityModel.Tokens.Jwt.5.5.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll" />
+    <customAssembly location="Microsoft.IdentityModel.Logging.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\Microsoft.IdentityModel.Logging.5.5.0\lib\net461\Microsoft.IdentityModel.Logging.dll" />
+    <customAssembly location="Microsoft.IdentityModel.JsonWebTokens.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\Microsoft.IdentityModel.JsonWebTokens.5.5.0\lib\net461\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll" />
+    <customAssembly location="AWSSDK.CognitoIdentityProvider.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\AWSSDK.CognitoIdentityProvider.3.3.102.49\lib\net45\AWSSDK.CognitoIdentityProvider.dll" />
+    <customAssembly location="AWSSDK.Core.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\AWSSDK.Core.3.3.103.28\lib\net45\AWSSDK.Core.dll" />
+    <customAssembly location="Microsoft.IdentityModel.Tokens.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="packages\Microsoft.IdentityModel.Tokens.5.5.0\lib\net461\Microsoft.IdentityModel.Tokens.dll" />
+  </assemblies>
+  <projectItems>
+    <projectItemReference itemId="40dcc00a-231f-4e3e-9583-780ab4abf46d" />
+  </projectItems>
+</package>

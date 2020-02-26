@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="106b751f-01c6-46c1-b0bb-d6b34d753bd1" ResetWebServer="TRUE" SharePointProductVersion="19.0">
+  <Assemblies>
+    <Assembly Location="System.IdentityModel.Tokens.Jwt.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Microsoft.IdentityModel.Logging.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Microsoft.IdentityModel.JsonWebTokens.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Newtonsoft.Json.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="AWSSDK.CognitoIdentityProvider.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="AWSSDK.Core.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Microsoft.IdentityModel.Tokens.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="DEG.SP.Cognito.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\DEG.SP.Cognito\Login.aspx" />
+    <TemplateFile Location="Layouts\DEG.SP.Cognito\Logout.aspx" />
+  </TemplateFiles>
+</Solution>
